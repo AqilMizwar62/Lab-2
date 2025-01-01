@@ -1,0 +1,71 @@
+<header>
+    <h1>Personal Profile Page</h1>
+    </header>
+    <nav>
+    <a href="#home">Home</a> | <a href="#about">About</a> |
+    <a href="#contact">Contact</a>
+    </nav>
+<table border="8">
+    <tr>
+        <th colspan="1">NAME</th>
+        <th colspan="1">AGE</th>
+        <th colspan="1">MALE</th>
+    </tr>
+    <tr>
+        <td>AQIL MIZWAR BIN MOHD ROSLAN</td>
+        <td>20</td>
+        <td>MALE</td>
+    </tr>
+    <tr>
+        <td>HARITH RAZIN BIN MUHAMMAD</td>
+        <td>21</td>
+        <td>MALE</td>
+    </tr>
+    <tr>
+        <td>WAN AIMI FIRDAUS BINTI WAN AZARIE</td>
+        <td>23</td>
+        <td>FEMALE</td>
+        <td></td>
+    </tr>
+</table>
+
+<h2>Registration Form</h2>
+    <form action="submit_form.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="hobby1">Favorite hobbies:</label><br>
+    <input type="checkbox" id="hobby1" name="hobby1"
+    value="watchingmovies">
+    <label for="hobby2"> Watching movies</label><br>
+    <input type="checkbox" id="hobby2" name="hobby2"
+    value="Eat">
+    <label for="hobby1"> Eat</label><br>
+    <input type="checkbox" id="hobby3" name="hobby2"
+    value="Gaming">
+    <label for="hobby3"> Gaming</label><br><br>
+
+    <label for="occupation">Choose a occupation:</label>
+    <select id="occupation" name="occupation">
+    <option value="Student">Student</option>
+    <option value="Employee">Employee</option>
+    <option value="Unemployee">Unemployee</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+
+    <article>
+    <h2>Your Information</h2>
+    <p>Your information will be kept confidential. 
+        We take privacy seriously and ensure that all interactions and data are securely handled and protected</p>
+
+    <footer>
+    <p>Copyright © 2024</p>
+    </footer>
+</form>
